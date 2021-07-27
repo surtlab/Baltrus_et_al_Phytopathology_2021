@@ -30,7 +30,7 @@ The raw data underlying Figure 2 is openly available as a .csv file in Github. T
 We'll pull this raw data into a variable called `Fig1_data` through the use of the `read.csv` function.
 
 ```
-Fig3B_data<-read.csv(text=getURL("https://raw.githubusercontent.com/surtlab/data_for_figures/master/011R_final.csv"))
+Fig3B_data<-read.csv(text=getURL("https://raw.githubusercontent.com/surtlab/Baltrus_et_al_Phytopathology_2021/main/Fig3A_data.csv"))
 ```
 
 **Step 4: Create the Plot Background**
